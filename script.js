@@ -16,11 +16,21 @@
 // console.log(arr);
 
 // Arr3
+// let arr = [];
+// let n = 12,
+//     A = 3,
+//     D = 2;
+// for (let i = A; i <= n; i += D) {
+//     arr.push(i);
+// }
+// console.log(arr);
+
+// Arr4
 let arr = [];
 let n = 12,
     A = 3,
     D = 2;
-for (let i = A; i <= n; i += D) {
+for (let i = A; i <= n; i *= D) {
     arr.push(i);
 }
 console.log(arr);
