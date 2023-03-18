@@ -26,11 +26,34 @@
 // console.log(arr);
 
 // Arr4
-let arr = [];
-let n = 12,
-    A = 3,
-    D = 2;
-for (let i = A; i <= n; i *= D) {
-    arr.push(i);
-}
-console.log(arr);
+// let arr = [];
+// let n = 12,
+//     A = 3,
+//     D = 2;
+// for (let i = A; i <= n; i *= D) {
+//     arr.push(i);
+// }
+// console.log(arr);
+
+// Arr5
+// let arr = [];
+// let n = 5;
+// for (let i = 2; i <= n; i++) {
+//     let F = i - 1 + (i - 2);
+//     arr.push(F);
+// }
+// console.log(arr);
+
+// Arr6
+
+
+// Arr7
+// let arr = [];
+// let n = 5;
+// for (let i = n; i >= 0; i--) {
+//     arr.push(i);
+// }
+// console.log(arr);
+
+// Arr8
+
