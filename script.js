@@ -45,7 +45,18 @@
 // console.log(arr);
 
 // Arr6
-
+// let a;
+// let A = 1,
+//     B = 5;
+//     a[0] = A,
+//     a[1] = B;
+// let n = 7;
+// let s = a[0] + a[1];
+// for (let i = 2; i < n; i++) {
+//     a[i] = s;
+//     s += a[i];
+// }
+// console.log(s);
 
 // Arr7
 // let arr = [];
@@ -56,4 +67,41 @@
 // console.log(arr);
 
 // Arr8
+// let arr = [];
+// let n = [4, 5, 7, 8, 6, 9],
+//     k = 0;
+// for (let i = 0; i <= n.length; i++) {
+//     if (n[i] % 2 !== 0) {
+//         console.log(n[i]);
+//         k++;
+//     } else {
+//         continue;
+//     }
+// }
+// console.log(`toqlar soni = ${k}`);
 
+// Arr9
+// let arr = [];
+// let n = [4, 5, 7, 8, 6, 9],
+//     k = 0;
+// for (let i = 0; i <= n.length; i++) {
+//     if (n[i] % 2 == 0) {
+//         console.log(n[i]);
+//         k++;
+//     } else {
+//         continue;
+//     }
+// }
+// console.log(`toqlar soni = ${k}`);
+
+// Arr10
+let arr = [];
+let n = [4, 5, 7, 8, 6, 9];
+for (let i = 0; i <= n.length; i++) {
+    if (n[i] % 2 == 0) {
+        console.log(n[i]);
+    } else {
+        continue;
+    }
+}
+console.log();
