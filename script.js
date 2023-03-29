@@ -101,8 +101,9 @@ let arr = [];
 let n = [4, 5, 7, 8, 6, 9];
 for (let i = 0; i <= n.length; i++) {
     if (n[i] % 2 == 0) {
-        console.log(n[i]);
+        arr.push(n[i]);
     } else {
-        console.log(n[i]);
+        arr.unshift(n[i]);
     }
 }
+console.log(arr);
