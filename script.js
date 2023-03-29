@@ -72,12 +72,13 @@
 //     k = 0;
 // for (let i = 0; i <= n.length; i++) {
 //     if (n[i] % 2 !== 0) {
-//         console.log(n[i]);
+//         arr.push(n[i]);
 //         k++;
 //     } else {
 //         continue;
 //     }
 // }
+// console.log(arr);
 // console.log(`toqlar soni = ${k}`);
 
 // Arr9
@@ -86,12 +87,13 @@
 //     k = 0;
 // for (let i = 0; i <= n.length; i++) {
 //     if (n[i] % 2 == 0) {
-//         console.log(n[i]);
+//         arr.push(n[i]);
 //         k++;
 //     } else {
 //         continue;
 //     }
 // }
+// console.log(arr);
 // console.log(`toqlar soni = ${k}`);
 
 // Arr10
@@ -101,7 +103,6 @@ for (let i = 0; i <= n.length; i++) {
     if (n[i] % 2 == 0) {
         console.log(n[i]);
     } else {
-        continue;
+        console.log(n[i]);
     }
 }
-console.log();
