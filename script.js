@@ -45,18 +45,19 @@
 // console.log(arr);
 
 // Arr6
-// let a;
+// let arr = [];
 // let A = 1,
 //     B = 5;
-//     a[0] = A,
-//     a[1] = B;
+// arr[0] = A;
+// arr[1] = B;
 // let n = 7;
-// let s = a[0] + a[1];
+// let s = arr[0] + arr[1];
 // for (let i = 2; i < n; i++) {
-//     a[i] = s;
-//     s += a[i];
+//     arr[i] = s;
+//     s += arr[i];
+//     arr.push(s);
 // }
-// console.log(s);
+// console.log(arr);
 
 // Arr7
 // let arr = [];
@@ -70,7 +71,7 @@
 // let arr = [];
 // let n = [4, 5, 7, 8, 6, 9],
 //     k = 0;
-// for (let i = 0; i <= n.length; i++) {
+// for (let i = 0; i <= n.length - 1; i++) {
 //     if (n[i] % 2 !== 0) {
 //         arr.push(n[i]);
 //         k++;
@@ -85,7 +86,7 @@
 // let arr = [];
 // let n = [4, 5, 7, 8, 6, 9],
 //     k = 0;
-// for (let i = 0; i <= n.length; i++) {
+// for (let i = 0; i <= n.length - 1; i++) {
 //     if (n[i] % 2 == 0) {
 //         arr.push(n[i]);
 //         k++;
@@ -97,13 +98,13 @@
 // console.log(`toqlar soni = ${k}`);
 
 // Arr10
-let arr = [];
-let n = [4, 5, 7, 8, 6, 9];
-for (let i = 0; i <= n.length; i++) {
-    if (n[i] % 2 == 0) {
-        arr.push(n[i]);
-    } else {
-        arr.unshift(n[i]);
-    }
-}
-console.log(arr);
+// let arr = [];
+// let n = [4, 5, 7, 8, 6, 9];
+// for (let i = 0; i <= n.length - 1; i++) {
+//     if (n[i] % 2 == 0) {
+//         arr.push(n[i]);
+//     } else {
+//         arr.unshift(n[i]);
+//     }
+// }
+// console.log(arr);
