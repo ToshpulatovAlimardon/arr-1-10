@@ -75,8 +75,6 @@
 //     if (n[i] % 2 !== 0) {
 //         arr.push(n[i]);
 //         k++;
-//     } else {
-//         continue;
 //     }
 // }
 // console.log(arr);
@@ -90,8 +88,6 @@
 //     if (n[i] % 2 == 0) {
 //         arr.push(n[i]);
 //         k++;
-//     } else {
-//         continue;
 //     }
 // }
 // console.log(arr);
