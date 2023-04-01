@@ -36,13 +36,16 @@
 // console.log(arr);
 
 // Arr5
-// let arr = [];
-// let n = 5;
-// for (let i = 2; i <= n; i++) {
-//     let F = i - 1 + (i - 2);
-//     arr.push(F);
+// let n = 10;
+// let f0 = 1,
+//     f1 = 1;
+// let a = [f0, f1];
+// for (let i = 2; i < n; i++) {
+//     a[i] = f0 + f1;
+//     f0 = f1;
+//     f1 = a[i];
 // }
-// console.log(arr);
+// console.log(a);
 
 // Arr6
 // let arr = [];
